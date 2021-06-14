@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "238003317238",
+    "project_id": "twilio-be796",
+    "storage_bucket": "twilio-be796.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:238003317238:android:7b6fd152e5b4aa29f3ffd7",
+        "android_client_info": {
+          "package_name": "com.twiliodemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "238003317238-hml4vh8fcf3g30j1p8phv3d276cbm841.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.twiliodemo",
+            "certificate_hash": "7286b1cbaca412dcd2aa28598c5ca5fc2f9b9bc3"
+          }
+        },
+        {
+          "client_id": "238003317238-2709cja4f4qqprgal6jedmrg7lofsf3u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB24ff8zlhbYc26SL915iwkj4luo8AG2d4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "238003317238-2709cja4f4qqprgal6jedmrg7lofsf3u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

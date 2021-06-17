@@ -193,6 +193,10 @@ dependencies {
 
     implementation project(':react-native-twilio-video-webrtc')
 
+    implementation("com.google.firebase:firebase-iid")
+
+    implementation project(':react-native-twilio-programmable-voice')
+
     debugImplementation("com.facebook.flipper:flipper:${FLIPPER_VERSION}") {
       exclude group:'com.facebook.fbjni'
     }

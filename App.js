@@ -20,6 +20,7 @@ import {createStackNavigator} from '@react-navigation/stack';
 import {Home} from './src/screens/HomeScreen'
 import {VideoCall} from './src/screens/VideoCallScreen'
 import {RejisterScreen} from './src/screens/RejisterScreen'
+import { VoiceCallScreen } from './src/screens/VoiceCallScreen';
 
 const initialState = {
   isAudioEnabled: true,
@@ -28,7 +29,7 @@ const initialState = {
   videoTracks: new Map(),
   userName: 'uditvohra',
   roomName: 'p2pRoom',
-  token: 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6InR3aWxpby1mcGE7dj0xIn0.eyJqdGkiOiJTS2ExNzMzZmEyYjVkY2U4NzM1M2U1OGE5Y2RjODk5NTcwLTE2MjM2NDI2ODIiLCJpc3MiOiJTS2ExNzMzZmEyYjVkY2U4NzM1M2U1OGE5Y2RjODk5NTcwIiwic3ViIjoiQUNiZjg0ZTRkMWU0MmQ0MmY0ODAyYWRmZjhlNDFiOGQzNyIsImV4cCI6MTYyMzY0NjI4MiwiZ3JhbnRzIjp7ImlkZW50aXR5IjoiU2FuY2hpdCIsInZpZGVvIjp7InJvb20iOiJTZXNzaW9uV2l0aFVWIn19fQ.IcDCQaMDzPbY0Kk0bi9r9vMHAaJnyd-eY_RTR_CZkVM',
+  token: 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6InR3aWxpby1mcGE7dj0xIn0.eyJqdGkiOiJTS2ExNzMzZmEyYjVkY2U4NzM1M2U1OGE5Y2RjODk5NTcwLTE2MjM2NDgxOTkiLCJpc3MiOiJTS2ExNzMzZmEyYjVkY2U4NzM1M2U1OGE5Y2RjODk5NTcwIiwic3ViIjoiQUNiZjg0ZTRkMWU0MmQ0MmY0ODAyYWRmZjhlNDFiOGQzNyIsImV4cCI6MTYyMzY1MTc5OSwiZ3JhbnRzIjp7ImlkZW50aXR5IjoiTXlUb2tlbiIsInZpZGVvIjp7InJvb20iOiJTZXNzaW9uV2l0aFVWIn19fQ.PfzSyp8-LK0rOB0I7xle8Vd5BH3MLxPlAAj5dw-XiWk',
 };
 
 export const AppContext = createContext(initialState);
@@ -52,6 +53,7 @@ const App = () => {
             <Stack.Screen name="Home" component={Home} />
             <Stack.Screen name="Video Call" component={VideoCall} />
             <Stack.Screen name="RejisterScreen" component={RejisterScreen}/>
+            <Stack.Screen name="VoiceCallScreen" component={VoiceCallScreen}/>
           </Stack.Navigator>
         </NavigationContainer>
       </AppContext.Provider>
